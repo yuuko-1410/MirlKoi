@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/download"
+            android:title="下载图片"
+            app:showAsAction="never"
+            tools:ignore="DuplicateIds"/>
+    <item
+            android:id="@+id/setumoshi"
+            android:title="涩图模式"
+            android:checkable="true"
+
+            app:showAsAction="never" />
+    <item
+            android:id="@+id/info"
+            android:title="关于"
+            app:showAsAction="never"
+            tools:ignore="DuplicateIds"/>
+
+</menu>
